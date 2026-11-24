@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="695" viewBox="0 0 760 695" role="img" aria-label="Step-by-step visual walkthrough">
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L7,3 L0,6 z" fill="context-stroke"/></marker></defs>
+<rect x="1.0" y="1.0" width="758.0" height="693.0" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.2"/>
+<text x="24.0" y="34.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="17" fill="#1e293b" text-anchor="start" font-weight="600">Symmetric Tree — compare mirrored twins</text>
+<circle cx="35.0" cy="74.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="78.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">1</text>
+<text x="56.0" y="79.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Is the tree its own mirror image? Values AND shape must mirror: left.left pairs with</text>
+<text x="56.0" y="98.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">right.right, left.right with right.left.</text>
+<line x1="380.0" y1="150.0" x2="202.0" y2="180.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="380.0" y1="150.0" x2="558.0" y2="180.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="202.0" y1="212.0" x2="113.0" y2="242.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="202.0" y1="212.0" x2="291.0" y2="242.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="558.0" y1="212.0" x2="469.0" y2="242.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="558.0" y1="212.0" x2="647.0" y2="242.0" stroke="#94a3b8" stroke-width="1.3"/>
+<circle cx="380.0" cy="134.0" r="17" fill="#dbeafe" stroke="#2563eb" stroke-width="1.4"/>
+<text x="380.0" y="139.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">1</text>
+<circle cx="202.0" cy="196.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="202.0" y="201.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">2</text>
+<circle cx="558.0" cy="196.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="558.0" y="201.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">2</text>
+<circle cx="113.0" cy="258.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="113.0" y="263.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">3</text>
+<circle cx="291.0" cy="258.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="291.0" y="263.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">4</text>
+<circle cx="469.0" cy="258.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="469.0" y="263.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">4</text>
+<circle cx="647.0" cy="258.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="647.0" y="263.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">3</text>
+<line x1="24.0" y1="298.0" x2="736.0" y2="298.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="318.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="322.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">2</text>
+<text x="56.0" y="323.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Walk two cursors in mirrored lockstep: compare (2,2) ✓, then (3,3) across the</text>
+<text x="56.0" y="342.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">outside, (4,4) across the inside.</text>
+<line x1="380.0" y1="394.0" x2="202.0" y2="424.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="380.0" y1="394.0" x2="558.0" y2="424.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="202.0" y1="456.0" x2="113.0" y2="486.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="202.0" y1="456.0" x2="291.0" y2="486.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="558.0" y1="456.0" x2="469.0" y2="486.0" stroke="#94a3b8" stroke-width="1.3"/>
+<line x1="558.0" y1="456.0" x2="647.0" y2="486.0" stroke="#94a3b8" stroke-width="1.3"/>
+<circle cx="380.0" cy="378.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="380.0" y="383.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">1</text>
+<circle cx="202.0" cy="440.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="202.0" y="445.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">2</text>
+<circle cx="558.0" cy="440.0" r="17" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.4"/>
+<text x="558.0" y="445.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">2</text>
+<circle cx="113.0" cy="502.0" r="17" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="113.0" y="507.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">3</text>
+<circle cx="291.0" cy="502.0" r="17" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+<text x="291.0" y="507.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">4</text>
+<circle cx="469.0" cy="502.0" r="17" fill="#fef3c7" stroke="#d97706" stroke-width="1.4"/>
+<text x="469.0" y="507.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">4</text>
+<circle cx="647.0" cy="502.0" r="17" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+<text x="647.0" y="507.0" font-family="ui-monospace,Menlo,monospace" font-size="13" fill="#1e293b" text-anchor="middle">3</text>
+<line x1="24.0" y1="542.0" x2="736.0" y2="542.0" stroke="#e2e8f0" stroke-width="1"/>
+<circle cx="35.0" cy="562.0" r="11" fill="#2563eb" stroke="#2563eb" stroke-width="1.4"/>
+<text x="35.0" y="566.5" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#ffffff" text-anchor="middle" font-weight="600">3</text>
+<text x="56.0" y="567.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">Symmetric ✓. This is isIdentical with one argument's children swapped — a two-line</text>
+<text x="56.0" y="586.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">diff from dsa-121. Asymmetric SHAPE (a missing child on one side) fails just like a</text>
+<text x="56.0" y="605.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="13.5" fill="#1e293b" text-anchor="start">wrong value.</text>
+<text x="72.0" y="640.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#64748b" text-anchor="end">rule</text>
+<rect x="84.0" y="621.0" width="477.0" height="28.0" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.2"/>
+<text x="322.5" y="640.0" font-family="ui-monospace,Menlo,monospace" font-size="12" fill="#1e293b" text-anchor="middle">mirror pairs → (L.left, R.right), (L.right, R.left)</text>
+<text x="380.0" y="677.0" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#94a3b8" text-anchor="middle">github.com/Sreenivas-Sadhu-Prabhakara · dsa series</text>
+</svg>
